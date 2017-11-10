@@ -1,5 +1,4 @@
 <?php
-// Función para llamar al webservice y devolver el resultado en un array
 ini_set("allow_url_fopen", 1);
   $url ='https://ticapacitacion.com/webapi/northwind/products';
   $json = file_get_contents($url);
